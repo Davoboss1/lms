@@ -1,0 +1,14 @@
+{% extends "leave_management/index.htm" %}
+{% block style %}
+<style>
+input{
+ border-radius:5px;
+}
+</style>
+{% endblock %}
+{% block body %}
+<div class="container" style="margin-top:100px;">
+{{ form.as_p }}
+</div>
+
+{% endblock %}
